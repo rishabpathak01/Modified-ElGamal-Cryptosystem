@@ -1,0 +1,373 @@
+.header{
+	background-repeat: repeat;
+	background-image:url(images/header.jpg);
+	height:100px;
+	width:100%;
+	color:white;
+	font-family:Arial black;
+	text-align:center;
+}
+.logo{
+	float:left;
+	padding-left: 60px;
+}
+.title{
+	float:left;
+	padding-top:20px;
+	font-size:45px;
+	padding-left:210px;
+	font-weight: normal;
+	
+}
+
+.address{
+	padding-left:120px;
+	padding-top:0px;
+	color:white;
+	font-family:Arial;
+	font-size:18px;
+	
+}
+
+#test {
+	
+	width :620px;
+	height:87%;
+	word-wrap: word-break;
+	padding-top:50px;
+	padding-left:40px;
+	font-weight:bold;
+	line-height:300%;
+	overflow:auto;
+}
+
+#test h3
+{
+	color:brown;
+}
+
+#test h3
+{
+	color:blue;
+}
+
+#left_sidebar {
+	float: left;	
+	width: 200px;
+	padding-left:30px;
+	
+}
+#right_sidebar {
+	float: right;	
+	width: 200px;
+	padding-right:60px;
+	
+}
+#menu_header { 
+	width: 208px;
+	padding: 110px 10px 0;
+	height: 93px;
+	background: url(images/menu_header.png)
+	
+}
+#menu_header h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+#menu_header h1 a { 
+	width: 180px; 
+	height: 23px;
+	 display: block;
+	 margin: 0 auto;
+/*	background: url(images/naac.jpg) top center no-repeat; 
+	text-indent: -10000px; */
+}
+#menu_body {
+	width: 200px;
+}
+ul.navigation,.info{
+    margin: 0;
+    padding: 0;
+	
+}
+ul.navigation,.info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	width: 228px;
+	height: 59px;
+	font-size: 16px;
+	font-weight: 700;
+    text-decoration: none;
+	text-align: center;
+	color:black;
+	background: url(images/menu_body.png)
+	
+}
+#options  {
+	margin-top:65px;
+	padding-bottom:180px;
+	margin-left:-40px;
+}
+
+#options li
+{
+	text-decoration:none;
+	list-style-type:none;
+	padding:15px;
+}
+
+#contact_page{
+	margin-top: 40px;
+	margin-left:450px;
+	width: 400px;
+	height: 400px;	
+	padding: 10px;
+	background: url(images/login_background.png) no-repeat;
+}
+ul.navigation a.last {
+	height: 98px;
+	background: url(images/menu_end.png) ;
+	
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: white;
+}
+
+.begin{
+	font-size:24px;
+	font-family:arial;
+}
+
+body{
+		background-image:url(images/background.jpg);
+		background-repeat: repeat;
+		font-family:arial;
+		font-size:14px;
+		margin: 0px 0px 0px 0px;
+		color:black;
+		/*font-weight:bold;*/
+		
+		}
+	
+#body_content_page p, pre{
+			padding:10px;
+			text-align:justify;
+			font-family:arial;
+			text-indent:25px;
+			line-height:18px;
+			margin-left:15px;
+			margin-right:27px;
+			
+}
+#body_content_page{
+	position:relative;
+	margin-top: 60px;
+	margin-left:330px;
+	width: 700px;
+	height: 1000px;	
+	padding: 10px;
+	background: url(images/body_page.png) no-repeat;
+	overflow:auto;
+	word-wrap: break-word;
+}
+#admission_form,#application_form{
+	background: url(images/body_page.png) no-repeat;
+	margin-top: 60px;
+	margin-left:420px;
+	width: 500px;
+	height: 700px;	
+	overflow:auto;
+	padding:20px;
+}
+.login_form{
+	margin-top: 40px;
+	margin-left:450px;
+	width: 400px;
+	height: 400px;	
+	padding: 10px;
+	background: url(images/login_background.png) no-repeat;
+}
+.signup_form{
+	margin-top: 40px;
+	margin-left:450px;
+	width: 460px;
+	height: 600px;	
+	padding: 10px;
+	background: url(images/sign_up.png) no-repeat;
+}
+.courses ol{
+	margin-top: 130px;
+	margin-left:400px;
+	width: 400px;
+	height: 300px;	
+	padding: 60px;
+	background: url(images/body_page_fit.png) no-repeat;
+	
+}
+
+.courses li,.courses a{
+	padding: 6px;
+	color:gray;
+	font-weight:bold;
+}
+.courses a:hover{
+	color:orange;
+}
+/*form {
+	padding:70px 30px;
+}*/
+
+
+.signup_form form{
+	padding:40px 30px;
+}
+
+form li{
+	/*border:1px solid gray;*/
+	list-style:none;
+	
+	width:100%;
+	background:none;
+	margin-top:15px;
+	padding-bottom:18px;
+	margin-left:-40px;
+	/*border-radius: 5px;*/
+}
+input[type="text"], input[type="password"],input[type="email"],input[type="number"]{
+	font-family: arial;
+	padding:14px 29px 14px 25px;
+	color:gray;
+	font-size:18px;
+	background: none;
+	border:none;
+	font-weight:600;
+	width:400px;
+	}
+label{
+	font-family: arial;
+	font-size:16px;
+	background: none;
+	font-weight:600;
+	color:gray;
+}
+/*form li:hover{
+	border:1px solid black;
+	/* box-shadow: 0 0 6px black;*/
+}*/
+li>input[type="file"]
+{
+	padding:14px 29px 14px 25px;
+	width:440px;
+	border:1px solid gray;
+	border-radius:5px;
+	color:gray;
+}
+
+input[type="submit"],input[type="reset"],input[type="button"]{
+	/*float:right;*/
+	font-size:18px;
+	font-weight:600;
+	color: white;
+	cursor: pointer;
+	background: gray;
+	padding:15px 10px;
+	margin-top:13px;
+	font-family: arial;
+	width:220px;
+	border:none;
+	border-radius:5px;
+}
+#education{
+	padding:14px 29px 14px 25px;
+	color:gray;
+	font-size:18px;
+	background: none;
+	border:none;
+	font-weight:600;
+	font-family:arial;
+	width:450px;
+}
+#gender{
+	padding:14px 29px 14px 25px;
+	font-size:18px;
+	font-weight:600;
+	font-family:arial;
+}
+.signup_end input[type="submit"],input[type="reset"]{
+	margin-top:5px;
+}
+.login_end input[type="submit"]{
+	
+}
+input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover{
+	background: orange;
+}
+
+#nist_info h2 {
+	font-size:15px;
+	font-weight:bold;
+	font-family:verdana;
+	color:white;
+	background:url(images/innerhead.jpg) no-repeat;
+	width:300px;
+	margin-left:30px;
+	height:24px;
+	padding-left:45px;
+	padding-top:6px;
+}
+#clubs h2{
+	font-size:15px;
+	font-weight:bold;
+	font-family:verdana;
+	color:white;
+	background:url(images/head.jpg) no-repeat;
+	width:600px;
+	margin-left:30px;
+	height:27px;
+	float:left;
+	padding:5px;
+}
+#clubs div p{
+	margin:0;
+	padding:25px 3px;
+	color:black;
+	text-align:justify;
+	margin-right:30px;
+	margin-left:5px;
+	line-height:25px;
+	font-weight:bold;
+	
+}
+#clubs div{
+	text-align:justify;
+}
+.thumbnails img
+{
+	height: 80px;
+	width:110px;
+	border: 4px solid black;
+	padding:6px;
+	margin: 20px 10px 3px 23px;
+}
+.thumbnails img:hover {
+	border: 4px solid orange;
+	cursor:pointer;
+}
+.view img {
+	border: 4px solid gray;
+	padding: 8px;
+	width: 450px;
+	margin:5px 10px 5px 10px;
+	margin-left:100px;
+	margin-top:30px;
+}
+ul.notice li,ul.announcement li{
+	color:blue;
+	padding:5px;
+}
